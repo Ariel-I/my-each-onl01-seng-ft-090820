@@ -11,6 +11,6 @@ collection
 end
 
 my_each(array)  
-collection. do |i|
+array.collect do |i|
   return i
 end 
