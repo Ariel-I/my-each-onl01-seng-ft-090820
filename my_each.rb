@@ -11,6 +11,7 @@ def my_each(array)
 end
 
 my_each(array) do |ta|
+  array.collect
 end 
 
 
