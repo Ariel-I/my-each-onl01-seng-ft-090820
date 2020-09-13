@@ -8,7 +8,7 @@ def my_each(array)
   i = i + 1 
 end 
 array
-else puts |i|
+else puts "#{array}"
 end 
 end
 
