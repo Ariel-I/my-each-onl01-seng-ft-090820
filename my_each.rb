@@ -11,7 +11,7 @@ def my_each(array)
 end
 
 my_each(array) do |i|
-  return array.collect 
+  return "arel" 
 end 
 
 
