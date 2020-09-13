@@ -1,7 +1,7 @@
 array = []
 
 def my_each(array)
-  i = 0 
+  i == 0 
   while i < 4 
   yield i 
   i = i + 1 
