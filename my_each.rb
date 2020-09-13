@@ -11,6 +11,6 @@ def my_each(array)
 end
 
 my_each(array) do |i|
-  return #original value 
+  return # array with the same elements as the original collection 
 end 
 
