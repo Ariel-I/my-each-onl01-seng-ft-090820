@@ -9,5 +9,5 @@ end
 end
 
 my_each(array) do |i|
-  return #{array}
+  return array.join
 end 
