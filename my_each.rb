@@ -6,7 +6,6 @@ def my_each(array)
   yield i 
   i = i + 1 
 end 
-my_each.join("")
 end
 
 my_each(array) do |i|
