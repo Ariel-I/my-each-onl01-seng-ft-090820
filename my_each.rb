@@ -7,9 +7,9 @@ def my_each(array)
   collection << yield (array[i])
   i = i + 1 
 end 
+collection
 end
 
-my_each(array) 
-array.collect do |i|
-  return "#{array}"
+my_each(array)  do |i|
+  return collection
 end 
