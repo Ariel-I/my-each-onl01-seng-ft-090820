@@ -1,4 +1,4 @@
-array = []
+array = ["arel", "jon", "logan", "spencer"]
 
 def my_each(array)
   i = 0
