@@ -10,7 +10,5 @@ def my_each(array)
   collection
 end
 
-my_each(array) do |i|
-  return #somthing
-end 
+
 
