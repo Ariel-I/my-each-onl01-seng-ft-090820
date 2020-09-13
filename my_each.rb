@@ -10,7 +10,7 @@ def my_each(array)
   collection
 end
 
-my_each(array) do |i|
+my_each(collection) do |i|
   return "#{collection}"
 end 
 
