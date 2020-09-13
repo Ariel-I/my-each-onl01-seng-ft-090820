@@ -2,12 +2,15 @@ array = []
 
 def my_each(array)
   i = 0 
+  collection = []
   while i < array.length 
- yield (array[i])
+ collection << yield (array[i])
   i = i + 1 
 end 
+collection
 end
 
-my_each(array)  do |i|
+my_each(array)  
+collection. do |i|
   return i
 end 
