@@ -12,5 +12,5 @@ end
 
 my_each(array)  
 array.collect do |i|
-  return "#{i}""
+  return "#{i}"
 end 
