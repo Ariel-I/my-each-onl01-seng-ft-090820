@@ -9,7 +9,7 @@ def my_each(array)
 end
 
 
-def hello(array)
+def new(array)
   i = 0
   collection = []
   while i < array.length
