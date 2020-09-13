@@ -11,6 +11,6 @@ def my_each(array)
 end
 
 my_each(array) do |i|
-  return #to_ary
+  return #original value 
 end 
 
