@@ -8,6 +8,7 @@ def my_each(array)
 end 
 end
 
-my_each(array) do |i|
-  return array.join("")
+my_each(array) 
+array.collect do |i|
+  return "#{array}"
 end 
