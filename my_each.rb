@@ -8,7 +8,7 @@ def my_each(array)
   i = i + 1 
 end 
 array
-else return |i|
+else puts |i|
 end 
 end
 
